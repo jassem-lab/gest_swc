@@ -52,7 +52,7 @@ while ($enreg = mysqli_fetch_array($query)) {
     <meta content="Jassem Gaaloul" name="author" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/swc.jpg">
+    <link rel="shortcut icon" href="assets/images/swc.png">
 
     <!-- Daterangepicker css -->
     <link rel="stylesheet" href="assets/vendor/daterangepicker/daterangepicker.css">
@@ -64,7 +64,7 @@ while ($enreg = mysqli_fetch_array($query)) {
     <script src="assets/js/config.js"></script>
 
     <!-- App css -->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css" id="app-style" />
 
     <!-- Icons css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -84,21 +84,21 @@ while ($enreg = mysqli_fetch_array($query)) {
                         <!-- Logo light -->
                         <a href="index.html" class="logo-light">
                             <span class="logo-lg">
-                                <img src="assets/images/swc.jpg" alt="logo">
+                                <img src="assets/images/swc.png" alt="logo">
                             </span>
-                            <span class="logo-sm">
+                            <!-- <span class="logo-sm">
                                 <img src="assets/images/swc.jpg" alt="small logo">
-                            </span>
+                            </span> -->
                         </a>
 
                         <!-- Logo Dark -->
                         <a href="index.html" class="logo-dark">
                             <span class="logo-lg">
-                                <img src="assets/images/swc.jpg" alt="dark logo">
+                                <img src="assets/images/swc.png" alt="dark logo">
                             </span>
-                            <span class="logo-sm">
+                            <!-- <span class="logo-sm">
                                 <img src="assets/images/swc.jpg" alt="small logo">
-                            </span>
+                            </span> -->
                         </a>
                     </div>
 
@@ -151,22 +151,22 @@ while ($enreg = mysqli_fetch_array($query)) {
         <div class="leftside-menu">
 
             <!-- Logo Light -->
-            <a href="index.html" class="logo logo-light">
+            <a href="index.php" class="logo logo-light">
                 <span class="logo-lg">
                     <h1 style="color : white ; font-size : 15px ; padding : 30px ">Smart Way Consulting Center</h1>
                 </span>
                 <span class="logo-sm">
-                    <!-- <img src="assets/images/logo-sm.png" alt="small logo"> -->
+                    <!-- <img src="assets/images/swc.png" alt="small logo"> -->
                 </span>
             </a>
 
             <!-- Logo Dark -->
             <a href="index.html" class="logo logo-dark">
                 <span class="logo-lg">
-                    <!-- <img src="assets/images/logo-dark.png" alt="dark logo"> -->
+                    <!-- <img src="assets/images/swc.png" alt="dark logo"> -->
                 </span>
                 <span class="logo-sm">
-                    <!-- <img src="assets/images/logo-sm.png" alt="small logo"> -->
+                    <!-- <img src="assets/images/swc.png" alt="small logo"> -->
                 </span>
             </a>
 
@@ -231,6 +231,9 @@ while ($enreg = mysqli_fetch_array($query)) {
                         </a>
                         <div class="collapse" id="sidebarPagesAuths">
                             <ul class="side-nav-second-level">
+                                <li class="side-nav-item">
+                                    <a class="side-nav-link" href="affectation.php">Affectation des cours</a>
+                                </li>
                                 <li class="side-nav-item">
                                     <a class="side-nav-link" href="Presence.php">Présence</a>
                                 </li>

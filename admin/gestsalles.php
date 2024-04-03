@@ -90,7 +90,7 @@ if (isset($_POST['enregistrer_mail1'])) {
                                         Looks good!
                                     </div>
                                 </div>
-                                <div class="col-sm-3"><br>
+                                <div class="mb-3 col-lg-8"><br>
                                     <button type="submit" class="btn btn-primary waves-effect waves-light">
                                         Enregistrer
                                     </button>

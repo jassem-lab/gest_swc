@@ -132,7 +132,7 @@ if (isset($_POST['enregistrer_mail1'])) {
                                                 <?php echo $enreg["cours"] ?>
                                             </td>
                                             <td>
-                                                <?php echo $enreg["prix"] ?>
+                                                <?php echo $enreg["prix"] ?> DT
                                             </td>
                                             <td><a href="Javascript:Supprimercours('<?php echo $id; ?>')"><i
                                                     icon-name="delete" style="color : red"></i></a></td>
